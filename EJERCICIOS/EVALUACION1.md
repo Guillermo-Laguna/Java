@@ -40,7 +40,7 @@ public class LanguagesFacts{
         b. Falso
 ## Answer: b 
 
-// It is necessary to give the indentation to the code and add semicolon in the third line /n
+/* It is necessary to give the indentation to the code and add semicolon in the third line */
 
 public class LanguagesFacts{
     public static void main(String[] args) {
@@ -116,6 +116,23 @@ Mi_Nombre!” donde “Mi_Nombre” sea tú nombre. (Valor 2 punto)
 Salida:
 ¡Hola  ́nombre_del_programador ́!!
 
+## Answer:
+public class HolaTu {
+    public static void main(String[] args) {
+         System.out.println("Hola Mi_Nombre!!"); 
+        
+    }
+}
+# Explicación del código Hola Mundo
+public static void main(String[] args)
+//En detalle:
+public: Para que la JVM (Máquina Virtual Java) pueda ejecutar el método desde cualquier lugar.
+static: El método principal puede ser llamado sin crear el objeto. (lo veremos más adelante)
+//Los modificadores public y static se pueden escribir en cualquier orden.
+void: El método main no devuelve nada.
+main(): Nombre configurado en la JVM
+String[]: El método principal acepta un único argumento:
+          una matriz de elementos de tipo String.
 
 8. Dada la clase con método main() LasEscondidas, que pertenece a un programa
 que se llama LasEscondidas.java. (Valor 2 puntos)
