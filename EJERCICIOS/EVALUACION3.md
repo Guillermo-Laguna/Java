@@ -11,9 +11,10 @@ clara, según sea el caso.
 
           a. 6
           b. false
-# Answer: c. true 
+          c. true 
           d. 5
-                   
+## Answer:c. true
+              
 2. ¿Qué hace el siguiente código? (Valor 1 punto)
 System.out.println(8 <= 8);
 
@@ -28,9 +29,10 @@ punto)
 double a = 2;
 
           a. a/2
-# Answer: b. a*5 
+          b. a*5 
           c. a - 12
           d. a % 10
+# Answer: b
           
 4. ¿Cuál es la mejor manera de saber si las siguientes dos cadenas son iguales?
 (Valor 1 punto)
