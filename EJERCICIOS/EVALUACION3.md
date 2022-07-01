@@ -11,10 +11,9 @@ clara, según sea el caso.
 
           a. 6
           b. false
-          c. true 
+# Answer: c. true 
           d. 5
-          Answer: c. true
-          
+                   
 2. ¿Qué hace el siguiente código? (Valor 1 punto)
 System.out.println(8 <= 8);
 
@@ -29,11 +28,10 @@ punto)
 double a = 2;
 
           a. a/2
-          b. a*5
+# Answer: b. a*5 
           c. a - 12
           d. a % 10
-          Answer: b. a*5
-
+          
 4. ¿Cuál es la mejor manera de saber si las siguientes dos cadenas son iguales?
 (Valor 1 punto)
 
@@ -41,17 +39,16 @@ String username1 = "teracoder";
 
 String username2 = "gigacoder";
 
-          a. username1 == username2
+# Answer: a. username1 == username2
           b. System.out.println(username1)
           c. username1.isEqualto(username2)
           d. username1.equals(username2)
-
-
+          
 5. ¿Qué operador se puede usar para concatenar dos strings? (Valor 1 punto)
 
           a. *
           b. .equals()
-          c. +
+# Answer: c. +
           d. -
 
 
@@ -82,7 +79,7 @@ int endpoint = 11 % 3;
           a. 1
           b. 11
           c. 2.66
-          d. 2
+# Answer: d. 2
           e. 11
 
 
