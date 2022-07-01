@@ -38,7 +38,15 @@ public class LanguagesFacts{
 
         a. Cierto
         b. Falso
-## Answer: b
+## Answer: b 
+
+// It is necessary to give the indentation to the code and the semicolon in the third line
+public class LanguagesFacts{
+    public static void main(String[] args) {
+        System.out.println("Las clases Java tienen un metodo 'main()'.");
+        System.out.println("Las declaraciones de Java terminan con un punto y coma.");
+    }
+}
 
 4. ¿Qué imprimirá el siguiente código en la pantalla? (Valor 1 punto)
 
@@ -55,7 +63,14 @@ public class HelloYou{
         a. ¡Hola amigo!
         b. Este código contiene un error.
         c. "¡Hola amigo!"
-## Answer: b
+## Answer: b (US-ASCII)
+
+// You need to remove the first exclamation mark
+public class HelloYou {
+    public static void main(String[] args) {   
+        System.out.println("Hola amigo!"); 
+    }
+}
 
 5. ¿Qué le falta a este programa en Java? (Valor 1 punto)
 
@@ -83,11 +98,11 @@ public class HolaMundo{
   }
   
 }
-
           a. HolaMundo.java
           b. No hay restricciones en el nombre del archivo en Java.
           c. HolaMundo.class
-## Answer: a
+## Answer: a 
+// As in the previous case, you need to remove the first exclamation mark to run the code
 
 7. Completa la clase HolaTu del programa HolaTu.java, para que imprima “¡Hola
 Mi_Nombre!” donde “Mi_Nombre” sea tú nombre. (Valor 2 punto)
