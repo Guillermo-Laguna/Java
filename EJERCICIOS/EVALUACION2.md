@@ -20,7 +20,7 @@ clara, según sea el caso.
           b. 'ab'
           c. 'F'
           d. 7
-##Answer: c
+## Answer: c
 
 3. ¿A qué tipo de datos solo se le puede asignar uno de dos valores? (Valor 1 punto)
 
@@ -28,7 +28,7 @@ clara, según sea el caso.
           b. double
           c. boolean
           d. int
-##Answer: c
+## Answer: c
 
 4. ¿Qué línea declara la variable bestProgrammingLanguage y la inicializa para que
 sea "Java"? (Valor 1 punto)
@@ -37,7 +37,7 @@ sea "Java"? (Valor 1 punto)
           b. string bestProgrammingLanguage = "Java";
           c. String bestProgrammingLanguage = "Java";
           d. "Java" = String bestProgrammingLanguage;
-##Answer: c
+## Answer: c
 
 5. ¿Qué opción es un nombre de variable válido y sigue las convenciones de
 nomenclatura de Java? (Valor 1 punto)
@@ -46,7 +46,7 @@ nomenclatura de Java? (Valor 1 punto)
           b. TimeUntilLaunch
           c. second_phone_number
           d. timeUntilLaunch
-##Answer: d     
+## Answer: d     
 
 6. ¿Qué línea de código declara una variable llamada numConejos para almacenar
 un número entero? (Valor 1 punto)
