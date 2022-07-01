@@ -38,6 +38,7 @@ public class LanguagesFacts{
 
         a. Cierto
         b. Falso
+## Answer: b
 
 4. ¿Qué imprimirá el siguiente código en la pantalla? (Valor 1 punto)
 
@@ -54,7 +55,7 @@ public class HelloYou{
         a. ¡Hola amigo!
         b. Este código contiene un error.
         c. "¡Hola amigo!"
-
+## Answer: b
 
 5. ¿Qué le falta a este programa en Java? (Valor 1 punto)
 
@@ -68,6 +69,7 @@ public class HechosLenguaje{
           b. La línea para compilar código: javac HechosLenguaje.java
           c. Un comentario de una sola línea.
           d. El método main().
+ ## Answer: d
 
 
 6. ¿Cuál sería el nombre del archivo si contuviera el siguiente código? (Valor 1 punto)
