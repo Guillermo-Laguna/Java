@@ -11,9 +11,10 @@ clara, según sea el caso.
 
           a. 6
           b. false
-          c. true
+          c. true 
           d. 5
-
+          Answer: c. true
+          
 2. ¿Qué hace el siguiente código? (Valor 1 punto)
 System.out.println(8 <= 8);
 
