@@ -13,6 +13,7 @@ clara, según sea el caso.
           b. double isRaining = false;
           c. String gradeOnTest = "A";
           d. char grade_on_test = 'F';
+## Answer: b
 
 2. ¿Cuál de los siguientes valores es un char válido? (Valor 1 punto)
 
@@ -55,6 +56,7 @@ un número entero? (Valor 1 punto)
           b. numConejos int;
           c. number numConejos;
           d. int numConejos;
+## Answer: d
 
 7. ¿Qué valor NO se puede asignar a una variable con el tipo de datos double? (Valor
 1 punto)
@@ -63,6 +65,7 @@ un número entero? (Valor 1 punto)
           b. 6.7
           c. 5
           d. -.2
+## Answer: a
 
 8. Supón que tienes un programa llamado Creador.java y dentro de este hemos
 definido algunas variables relacionadas a James Gosling, el creador de Java como
