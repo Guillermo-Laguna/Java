@@ -40,7 +40,8 @@ public class LanguagesFacts{
         b. Falso
 ## Answer: b 
 
-// It is necessary to give the indentation to the code and the semicolon in the third line
+/* It is necessary to give the indentation to the code and the semicolon in the third line*/
+
 public class LanguagesFacts{
     public static void main(String[] args) {
         System.out.println("Las clases Java tienen un metodo 'main()'.");
@@ -65,7 +66,7 @@ public class HelloYou{
         c. "¡Hola amigo!"
 ## Answer: b (US-ASCII)
 
-// You need to remove the first exclamation mark
+/* You need to remove the first exclamation mark*/
 public class HelloYou {
     public static void main(String[] args) {   
         System.out.println("Hola amigo!"); 
