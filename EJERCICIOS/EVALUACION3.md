@@ -32,7 +32,7 @@ double a = 2;
           b. a*5
           c. a - 12
           d. a % 10
-
+          Answer: b. a*5
 
 4. ¿Cuál es la mejor manera de saber si las siguientes dos cadenas son iguales?
 (Valor 1 punto)
