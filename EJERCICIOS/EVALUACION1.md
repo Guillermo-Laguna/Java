@@ -215,7 +215,7 @@ public class Timeline {
         //Sun Microsystems anuncio el lanzamiento de Java en 1995
         System.out.println("Fuiste creado por James Gosling.");
         /*James Gosling es un ingeniero canadiense que
-        cro Java mientras trabajaba en Sun Microsystems.
+        creo Java mientras trabajaba en Sun Microsystems.
         Su numero favorito es la raiz cuadrada de 2!*/
         System.out.println("Eres un lenguaje divertido!");
     }
