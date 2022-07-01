@@ -119,11 +119,11 @@ Salida:
 ## Answer:
 public class HolaTu {
     public static void main(String[] args) {
-         System.out.println("Hola Mi_Nombre!!"); 
-        
+         System.out.println("Hola Mi_Nombre!"); 
     }
 }
-# Explicación del código Hola Mundo
+
+## Explicación del código Hola Mundo
 public static void main(String[] args)
 //En detalle:
 public: Para que la JVM (Máquina Virtual Java) pueda ejecutar el método desde cualquier lugar.
