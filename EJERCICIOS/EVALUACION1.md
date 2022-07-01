@@ -40,7 +40,7 @@ public class LanguagesFacts{
         b. Falso
 ## Answer: b 
 
-/* It is necessary to give the indentation to the code and the semicolon in the third line*/
+/* It is necessary to give the indentation to the code and add semicolon in the third line*/
 
 public class LanguagesFacts{
     public static void main(String[] args) {
