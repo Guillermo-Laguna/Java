@@ -242,3 +242,11 @@ d. Debajo del comentario, escribe una declaración que imprima lo siguiente:
 
 e. Escribe la salida del programa.
 
+## Answer: 
+
+public class Evaluacion {
+    public static void main(String[] args) {
+      //El metodo main ejecuta las tareas de la clase  
+      System.out.println("Mi primer programa Java desde cero!");
+    }
+}
