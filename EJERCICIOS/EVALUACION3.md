@@ -33,7 +33,7 @@ double a = 2;
           b. a*5 
           c. a - 12
           d. a % 10
-## Answer: b
+## Answer:b
           
 4. ¿Cuál es la mejor manera de saber si las siguientes dos cadenas son iguales?
 (Valor 1 punto)
@@ -46,7 +46,7 @@ String username2 = "gigacoder";
           b. System.out.println(username1)
           c. username1.isEqualto(username2)
           d. username1.equals(username2)
-## Answer: a    
+## Answer:a    
           
 5. ¿Qué operador se puede usar para concatenar dos strings? (Valor 1 punto)
 
@@ -54,7 +54,7 @@ String username2 = "gigacoder";
           b. .equals()
           c. +
           d. -
-## Answer: c
+## Answer:c
 
 6. ¿Hay algún error en la siguiente declaración en Java? (Valor 1 punto)
 
@@ -73,7 +73,7 @@ int status = 7 < 8;
           b. Error
           c. "Son las 5pm" ---
           d. 11
-## Answer: c
+## Answer:c
 
 8. Después de ejecutar el siguiente código, ¿cuál será el valor de la variable
 endpoint? (Valor 1 punto)
