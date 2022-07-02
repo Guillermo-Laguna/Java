@@ -141,6 +141,27 @@ c. Escribe la salida.
 
       Salida:
       6
+## Answer:
+
+import java.util.Scanner;
+//Esta es la declaracion de la clase
+public class ContComentarios { 
+//Este es el metodo main que se ejecuta cuando compilas
+    public static void main(String[] args) {
+
+    Scanner input = new Scanner(System.in);
+//Aqui es donde vas a definir tu variable	
+    int numComments = 6;
+//Aqui es donde vas a imprimir tu variable
+    System.out.println("Salida:");
+    System.out.println(numComments);
+    
+    // closing the scanner object
+    input.close();
+    }
+//Este es el final de la class
+}
+//Esto esta afuera de la clase
 
 10. Considera el código del siguiente programa escrito en Java cuyo nombre del
 archivo es CuotaMercado.java: (Valor 2 puntos)
