@@ -213,15 +213,14 @@ c. Escribe la salida del programa.
         public class Timeline {
             public static void main(String[] args) {
 
-                System.out.println("Hola Java!");
-//Sun Microsystems anuncio el lanzamiento de Java en 1995               
-                System.out.println("Naciste en 1995.");
- 
-                System.out.println("Fuiste creado por James Gosling.");
-/*James Gosling es un ingeniero canadiense que creo Java mientras trabajaba en Sun           Microsystems. Su numero favorito es la raiz cuadrada de 2!*/
+               System.out.println("Hola Java!");
+        //Sun Microsystems anuncio el lanzamiento de Java en 1995               
+               System.out.println("Naciste en 1995.");
+               System.out.println("Fuiste creado por James Gosling.");
+        /*James Gosling es un ingeniero canadiense que creo Java mientras trabajaba en Sun           Microsystems. Su numero favorito es la raiz cuadrada de 2!*/
                 System.out.println("Eres un lenguaje divertido!");
-            }
-        }
+              }
+         }
 
 10. Escribe el contenido de un programa en java que lleva por nombre
 Evaluacion.java con las siguientes características: (Varlor 2 puntos)
