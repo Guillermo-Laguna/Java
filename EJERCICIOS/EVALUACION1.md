@@ -66,13 +66,13 @@ traducido a un lenguaje que la computadora entiende. (Valor 1 punto)
         c. "¡Hola amigo!"
 ## Answer: b (US-ASCII)
 
-/* You need to remove the first exclamation mark*/
+        /* You need to remove the first exclamation mark*/
 
-        public class HelloYou {
-            public static void main(String[] args) {   
-                System.out.println("Hola amigo!"); 
-            }
-        }
+                public class HelloYou {
+                    public static void main(String[] args) {   
+                        System.out.println("Hola amigo!"); 
+                    }
+                }
 
 5. ¿Qué le falta a este programa en Java? (Valor 1 punto)
 
@@ -114,7 +114,7 @@ Mi_Nombre!” donde “Mi_Nombre” sea tú nombre. (Valor 2 punto)
         public class HolaTu {
           public static void main(String[] args) {
           }
-          }
+        }
 
 Salida:
 ¡Hola  ́nombre_del_programador ́!!
@@ -214,11 +214,11 @@ c. Escribe la salida del programa.
             public static void main(String[] args) {
 
                 System.out.println("Hola Java!");
- //Sun Microsystems anuncio el lanzamiento de Java en 1995               
+//Sun Microsystems anuncio el lanzamiento de Java en 1995               
                 System.out.println("Naciste en 1995.");
  
                 System.out.println("Fuiste creado por James Gosling.");
- /*James Gosling es un ingeniero canadiense que creo Java mientras trabajaba en Sun          Microsystems. Su numero favorito es la raiz cuadrada de 2!*/
+/*James Gosling es un ingeniero canadiense que creo Java mientras trabajaba en Sun           Microsystems. Su numero favorito es la raiz cuadrada de 2!*/
                 System.out.println("Eres un lenguaje divertido!");
             }
         }
