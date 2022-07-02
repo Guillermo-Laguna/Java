@@ -64,6 +64,7 @@ int status = 7 < 8;
           b. Sí, int debería ser boolean.
           c. Sí, no debería de haber un punto y como.
           d. No hay error.
+ ## Answer: b
 
 7. ¿Cuál es el resultado de la siguiente concatenación de cadenas? (Valor 1 punto)
 
