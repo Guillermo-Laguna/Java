@@ -142,7 +142,6 @@ c. Escribe la salida.
       Salida:
       6
 ## Answer:
-
 import java.util.Scanner;
 //Esta es la declaracion de la clase
 public class ContComentarios { 
