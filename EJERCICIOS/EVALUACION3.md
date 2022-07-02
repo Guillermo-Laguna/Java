@@ -123,3 +123,37 @@ Salida:
 
           true
           Le di a cada amigo 250.25...
+          
+## Answer:
+
+          import java.util.Scanner;
+
+          public class CuentaBancaria {
+                 public static void main(String[] args){
+
+                    Scanner input = new Scanner(System.in);
+                    System.out.println("Salida:");
+                    double saldo = 1000.75;
+                    double cantidadARetirar= 250;
+                    double saldoActualizado;
+                    double cantidadParaCadaAmigo;
+                    boolean puedeComprarTicket = true;
+
+                    System.out.println(nombre);
+                    System.out.println(edad);
+                    System.out.println(salarioDeseado);
+                    System.out.println(genero);
+                    System.out.println(buscandoTrabajo);
+
+          // closing the scanner object
+          input.close();
+
+             }
+          }
+
+
+                  if(cantidadParaCadaAmigo)
+
+                  System.out.println(puedeComprarTicket);
+                 }
+               }
