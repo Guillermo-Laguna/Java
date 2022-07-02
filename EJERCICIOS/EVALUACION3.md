@@ -143,19 +143,21 @@ Salida:
                     double cantidadParaCadaAmigo = saldoActualizado / 3;
                     System.out.println("cantidadParaCadaAmigo");
                     boolean puedeComprarTicket = true;
-
+                    
+                    if (cantidadParaCadaAmigo < 0) {
+            puedeComprarTicket = false;
+        } else {
+            saldo = saldo + n;
+        }
+        System.out.println(puedeComprarTicket);
+    }
           // closing the scanner object
           input.close();
 
              }
           }
 
-                  if(cantidadParaCadaAmigo)
-
-                  System.out.println(puedeComprarTicket);
-                 }
-               }
-               
+                               
  ## Complementar
  
  if (puedoSacar(cantidad))
