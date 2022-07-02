@@ -94,6 +94,26 @@ c. Escribe la salida.
       Salida:
       James Gosling
       1995
+      
+## Answer:
+
+import java.util.Scanner;
+
+class Creator {
+    public static void main(String[] args) {
+    	
+        Scanner input = new Scanner(System.in);
+    	
+        System.out.println("Salida: ");
+        String nombre = "James Gosling";
+        int yearCreado = 1995;
+        System.out.println(nombre);
+        System.out.println(yearCreado);
+
+        // closing the scanner object
+        input.close();
+    }
+}
 
 9. Supón que tienes un programa llamado ContComentarios.java y dentro de este
 tenemos el siguiente código definido: (Valor 2 puntos)
