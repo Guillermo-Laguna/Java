@@ -133,17 +133,16 @@ Salida:
 
                     Scanner input = new Scanner(System.in);
                     System.out.println("Salida:");
+                    
+           // Consultamos el saldo
                     double saldo = 1000.75;
                     double cantidadARetirar= 250;
-                    double saldoActualizado;
-                    double cantidadParaCadaAmigo;
+                    double saldoActualizado = saldo - cantidadARetirar;
+                    System.out.println("saldoActualizado");
+                    
+                    double cantidadParaCadaAmigo = saldoActualizado / 3;
+                    System.out.println("cantidadParaCadaAmigo");
                     boolean puedeComprarTicket = true;
-
-                    System.out.println(nombre);
-                    System.out.println(edad);
-                    System.out.println(salarioDeseado);
-                    System.out.println(genero);
-                    System.out.println(buscandoTrabajo);
 
           // closing the scanner object
           input.close();
@@ -151,9 +150,83 @@ Salida:
              }
           }
 
-
                   if(cantidadParaCadaAmigo)
 
                   System.out.println(puedeComprarTicket);
                  }
                }
+               
+ ## Complementar
+ 
+ if (puedoSacar(cantidad))
+saldo = saldo – cantidad;
+ 
+//método ingreso
+    public boolean ingreso(double n) {
+        boolean ingresoCorrecto = true;
+        if (n < 0) {
+            ingresoCorrecto = false;
+        } else {
+            saldo = saldo + n;
+        }
+        return ingresoCorrecto;
+    }
+
+    //método reintegro
+    public boolean reintegro(double n) {
+        boolean reintegroCorrecto = true;                                                                         
+        if (n < 0) {
+            reintegroCorrecto = false;
+        } else if (saldo >= n) {
+            saldo -= n;
+        } else {
+            reintegroCorrecto = false;
+        }
+        return reintegroCorrecto;
+    }
+
+    //método transferencia
+    public boolean transferencia(Cuenta c, double n) {
+        boolean correcto = true;
+        if (n < 0) {
+            correcto = false;
+        } else if (saldo >= n) {
+            reintegro(n);
+            c.ingreso(n);
+        } else {
+            correcto = false;
+        }
+        return correcto;
+    }
+}
+
+
+ ## Ejemplo 2
+ 
+ public class Banco {
+    public static void main(String[] args) {
+      
+        double totalCuenta;
+
+        // Creamos la cuenta
+        Cuenta Cuenta1;
+        Cuenta1 = new Cuenta(11111, 2500.70);
+
+        // Consultamos el saldo
+        totalCuenta = Cuenta1.saldo();
+        System.out.println("Total actual en la cuenta: " + totalCuenta + " €");
+
+        // Hacemos un ingreso en la cuenta
+        double ingreso = 350.25;
+        System.out.println("Se ingresan en la cuenta: " + ingreso + " €");
+        Cuenta1.depositar(ingreso);
+        
+        System.out.println("---");
+
+        // Consultamos el saldo de nuevo
+        totalCuenta = Cuenta1.saldo();
+        System.out.println("Total actual en la cuenta: " + totalCuenta + " €");        
+        
+    }
+    
+}
