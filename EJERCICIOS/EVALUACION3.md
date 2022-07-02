@@ -138,18 +138,20 @@ Salida:
                     double saldo = 1000.75;
                     double cantidadARetirar= 250;
                     double saldoActualizado = saldo - cantidadARetirar;
-                    System.out.println("saldoActualizado");
+                    System.out.println(saldoActualizado);
                     
                     double cantidadParaCadaAmigo = saldoActualizado / 3;
-                    System.out.println("cantidadParaCadaAmigo");
+                    System.out.println(cantidadParaCadaAmigo);
                     boolean puedeComprarTicket = true;
                     
-                    if (cantidadParaCadaAmigo < 0) {
-            puedeComprarTicket = false;
+                    if (cantidadParaCadaAmigo >= 250) {
+            puedeComprarTicket = true;
         } else {
-            saldo = saldo + n;
+            cantidadParaCadaAmigo < 250;
         }
-        System.out.println(puedeComprarTicket);
+        return puedeComprarTicket;
+    }
+        System.out.println("Le di a cada amigo" + cantidadParaCadaAmigo);
     }
           // closing the scanner object
           input.close();
@@ -158,7 +160,7 @@ Salida:
           }
 
                                
- ## Complementar
+ ## Otros ejemplos 
  
  if (puedoSacar(cantidad))
 saldo = saldo – cantidad;
