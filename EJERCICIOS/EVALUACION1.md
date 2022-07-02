@@ -24,17 +24,17 @@ traducido a un lenguaje que la computadora entiende. (Valor 1 punto)
 
 3. El siguiente código se ejecutará sin error. (Valor 1 punto)
 
-public class LanguagesFacts{
+        public class LanguagesFacts{
 
-  public static void main(String[] args){
-  
-  System.out.println("Las clases Java tienen un método 'main()'.")
+            public static void main(String[] args){
 
-  System.out.println("Las declaraciones de Java terminan con un punto y coma.");
+              System.out.println("Las clases Java tienen un método 'main()'.")
 
-  }
-  
-}
+              System.out.println("Las declaraciones de Java terminan con un punto y coma.");
+
+             }
+
+        }
 
         a. Cierto
         b. Falso
@@ -42,24 +42,24 @@ public class LanguagesFacts{
 
 /* It is necessary to give the indentation to the code and add semicolon in the third line */
 
-public class LanguagesFacts{
-    public static void main(String[] args) {
-        System.out.println("Las clases Java tienen un metodo 'main()'.");
-        System.out.println("Las declaraciones de Java terminan con un punto y coma.");
-    }
-}
+        public class LanguagesFacts{
+            public static void main(String[] args) {
+                System.out.println("Las clases Java tienen un metodo 'main()'.");
+                System.out.println("Las declaraciones de Java terminan con un punto y coma.");
+            }
+        }
 
 4. ¿Qué imprimirá el siguiente código en la pantalla? (Valor 1 punto)
 
-public class HelloYou{
+        public class HelloYou{
 
-  public static void main(String[] args){
-  
-   System.out.println("¡Hola amigo!");
-    
-  }
-  
-}
+             public static void main(String[] args){
+
+               System.out.println("¡Hola amigo!");
+
+             }
+
+        }
 
         a. ¡Hola amigo!
         b. Este código contiene un error.
@@ -67,11 +67,12 @@ public class HelloYou{
 ## Answer: b (US-ASCII)
 
 /* You need to remove the first exclamation mark*/
-public class HelloYou {
-    public static void main(String[] args) {   
-        System.out.println("Hola amigo!"); 
-    }
-}
+
+        public class HelloYou {
+            public static void main(String[] args) {   
+                System.out.println("Hola amigo!"); 
+            }
+        }
 
 5. ¿Qué le falta a este programa en Java? (Valor 1 punto)
 
@@ -90,20 +91,21 @@ public class HechosLenguaje{
 
 6. ¿Cuál sería el nombre del archivo si contuviera el siguiente código? (Valor 1 punto)
 
-public class HolaMundo{
+        public class HolaMundo{
 
-  public static void main(String[] args){
-  
-   System.out.println("¡Hola Mundo!");
-    
-  }
-  
-}
+            public static void main(String[] args){
+
+               System.out.println("¡Hola Mundo!");
+
+            }
+
+        }
 
           a. HolaMundo.java
           b. No hay restricciones en el nombre del archivo en Java.
           c. HolaMundo.class
 ## Answer: a 
+
 // As in the previous case, you need to remove the first exclamation mark to run the code
 
 7. Completa la clase HolaTu del programa HolaTu.java, para que imprima “¡Hola
@@ -119,11 +121,11 @@ Salida:
 
 ## Answer:
 
-public class HolaTu {
-    public static void main(String[] args) {
-         System.out.println("Hola Mi_Nombre!"); 
-    }
-}
+        public class HolaTu {
+            public static void main(String[] args) {
+                 System.out.println("Hola Mi_Nombre!"); 
+            }
+        }
 
 ## Explicación del código Hola Mundo
 public static void main(String[] args)
@@ -139,15 +141,15 @@ String[]: El método principal acepta un único argumento:
 8. Dada la clase con método main() LasEscondidas, que pertenece a un programa
 que se llama LasEscondidas.java. (Valor 2 puntos)
 
-public class LasEscondidas {
+        public class LasEscondidas {
 
-  public static void main(String[] args) {
-  
-   System.out.println("Juguemos a las escondidas.");
-    
-  }
-  
-}
+           public static void main(String[] args) {
+
+               System.out.println("Juguemos a las escondidas.");
+
+            }
+
+        }
 
           a. Debajo de la declaración de impresión System.out.println("Juguemos a las
           escondidas");, usando System.out.print(), genera las siguientes dos declaraciones:
@@ -161,32 +163,33 @@ public class LasEscondidas {
           "¡Listos o no, aquí voy!"
 
 ## Answer:
-public class LasEscondidas {
 
-  public static void main(String[] args) {
-  
-    System.out.println("Juguemos a las escondidas.");
-    System.out.print("Tres...");
-    System.out.print("Dos...");  
-    System.out.println("Uno...");
-    System.out.println("Listos o no, aqui voy!");
-  }
-}
+        public class LasEscondidas {
+
+           public static void main(String[] args) {
+
+              System.out.println("Juguemos a las escondidas.");
+              System.out.print("Tres...");
+              System.out.print("Dos...");  
+              System.out.println("Uno...");
+              System.out.println("Listos o no, aqui voy!");
+            }
+        }
 
 9. Supón que el siguiente código pertenece al programa Timeline.java el cual tiene
 texto sin formato. (Valor 2 puntos)
 
             public class Timeline {
-              public static void main(String[] args) {
-                System.out.println("¡Hola Java!");
-                System.out.println("Naciste en 1995.");
-                Sun Microsystems anunció el lanzamiento de Java en 1995
+                public static void main(String[] args) {
+                   System.out.println("¡Hola Java!");
+                   System.out.println("Naciste en 1995.");
+                   Sun Microsystems anunció el lanzamiento de Java en 1995
                 System.out.println("Fuiste creado por James Gosling.");
-                James Gosling es un ingeniero canadiense que
-                creó Java mientras trabajaba en Sun Microsystems.
-                ¡Su número favorito es la raíz cuadrada de 2!
+                   James Gosling es un ingeniero canadiense que
+                   creó Java mientras trabajaba en Sun Microsystems.
+                   ¡Su número favorito es la raíz cuadrada de 2!
                 System.out.println("¡Eres un lenguaje divertido!");
-              }
+               }
             }
 
 Usa comentarios para evitar detener la ejecución del programa por el texto sin formato.
@@ -207,19 +210,18 @@ c. Escribe la salida del programa.
 
 ## Answer:
 
-public class Timeline {
-    public static void main(String[] args) {
-        
-        System.out.println("Hola Java!");
-        System.out.println("Naciste en 1995.");
-        //Sun Microsystems anuncio el lanzamiento de Java en 1995
-        System.out.println("Fuiste creado por James Gosling.");
-        /*James Gosling es un ingeniero canadiense que
-        creo Java mientras trabajaba en Sun Microsystems.
-        Su numero favorito es la raiz cuadrada de 2!*/
-        System.out.println("Eres un lenguaje divertido!");
-    }
-}
+        public class Timeline {
+            public static void main(String[] args) {
+
+                System.out.println("Hola Java!");
+ //Sun Microsystems anuncio el lanzamiento de Java en 1995               
+                System.out.println("Naciste en 1995.");
+ 
+                System.out.println("Fuiste creado por James Gosling.");
+ /*James Gosling es un ingeniero canadiense que creo Java mientras trabajaba en Sun          Microsystems. Su numero favorito es la raiz cuadrada de 2!*/
+                System.out.println("Eres un lenguaje divertido!");
+            }
+        }
 
 10. Escribe el contenido de un programa en java que lleva por nombre
 Evaluacion.java con las siguientes características: (Varlor 2 puntos)
@@ -244,9 +246,9 @@ e. Escribe la salida del programa.
 
 ## Answer: 
 
-public class Evaluacion {
-    public static void main(String[] args) {
-      //El metodo main ejecuta las tareas de la clase  
-      System.out.println("Mi primer programa Java desde cero!");
-    }
-}
+        public class Evaluacion {
+            public static void main(String[] args) {
+              //El metodo main ejecuta las tareas de la clase  
+              System.out.println("Mi primer programa Java desde cero!");
+            }
+        }
