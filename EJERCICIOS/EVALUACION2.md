@@ -97,23 +97,23 @@ c. Escribe la salida.
       
 ## Answer:
 
-import java.util.Scanner;
+	import java.util.Scanner;
 
-class Creator {
-    public static void main(String[] args) {
-    	
-        Scanner input = new Scanner(System.in);
-    	
-        String nombre = "James Gosling";
-        int yearCreado = 1995;
-        System.out.println("Salida:");
-        System.out.println(nombre);
-        System.out.print(yearCreado);
+	class Creator {
+	    public static void main(String[] args) {
 
-        // closing the scanner object
-        input.close();
-    }
-}
+		Scanner input = new Scanner(System.in);
+
+		String nombre = "James Gosling";
+		int yearCreado = 1995;
+		System.out.println("Salida:");
+		System.out.println(nombre);
+		System.out.print(yearCreado);
+
+		// closing the scanner object
+		input.close();
+	    }
+	}
 
 9. Supón que tienes un programa llamado ContComentarios.java y dentro de este
 tenemos el siguiente código definido: (Valor 2 puntos)
@@ -143,25 +143,25 @@ c. Escribe la salida.
       6
 ## Answer:
 
-import java.util.Scanner;
-//Esta es la declaracion de la clase
-public class ContComentarios { 
-//Este es el metodo main que se ejecuta cuando compilas
-    public static void main(String[] args) {
+	import java.util.Scanner;
+	//Esta es la declaracion de la clase
+	public class ContComentarios { 
+	//Este es el metodo main que se ejecuta cuando compilas
+	    public static void main(String[] args) {
 
-    Scanner input = new Scanner(System.in);
-//Aqui es donde vas a definir tu variable	
-    int numComments = 6;
-//Aqui es donde vas a imprimir tu variable
-    System.out.println("Salida:");
-    System.out.println(numComments);
-    
-    // closing the scanner object
-    input.close();
-    }
-//Este es el final de la class
-}
-//Esto esta afuera de la clase
+	    Scanner input = new Scanner(System.in);
+	//Aqui es donde vas a definir tu variable	
+	    int numComments = 6;
+	//Aqui es donde vas a imprimir tu variable
+	    System.out.println("Salida:");
+	    System.out.println(numComments);
+
+	    // closing the scanner object
+	    input.close();
+	    }
+	//Este es el final de la class
+	}
+	//Esto esta afuera de la clase
 
 10. Considera el código del siguiente programa escrito en Java cuyo nombre del
 archivo es CuotaMercado.java: (Valor 2 puntos)
@@ -186,21 +186,21 @@ c. Escribe la salida.
                 
  ## Answer:
  
-import java.util.Scanner;
+	import java.util.Scanner;
 
-public class CuotaMercado { 
-  public static void main(String[] args) {
+	public class CuotaMercado { 
+	  public static void main(String[] args) {
 
-    Scanner input = new Scanner(System.in);
-	
-    double androidCuota = 70.97;
-    System.out.println("Salida:");
-    System.out.print(androidCuota);
-  
-    // closing the scanner object
-    input.close();
-  }
-}
+	    Scanner input = new Scanner(System.in);
+
+	    double androidCuota = 70.97;
+	    System.out.println("Salida:");
+	    System.out.print(androidCuota);
+
+	    // closing the scanner object
+	    input.close();
+	  }
+	}
 
 11. Considera el código del siguiente programa escrito en Java cuyo nombre del
 archivo es Booleans.java: (Valor 2 puntos)
@@ -223,30 +223,30 @@ c. Escribe la salida.
 
 ## Answer:
 
-import java.util.Scanner;
+	import java.util.Scanner;
 
-public class Booleans {
-  public static void main(String[] args) {
-    Scanner input = new Scanner(System.in);
-    double intsPuedeAlmacenarDecimales = 70.97;
-    System.out.println("Salida:");
-    System.out.println(intsPuedeAlmacenarDecimales);
-// closing the scanner object
-input.close();
+	public class Booleans {
+	  public static void main(String[] args) {
+	    Scanner input = new Scanner(System.in);
+	    double intsPuedeAlmacenarDecimales = 70.97;
+	    System.out.println("Salida:");
+	    System.out.println(intsPuedeAlmacenarDecimales);
+	// closing the scanner object
+	input.close();
 
-    // checks if number is greater than 0
-    if (intsPuedeAlmacenarDecimales > 0) {
-      System.out.println("el tipo int no puede contener un numero decimal.");
-    }
-    
-    // execute this block
-    // if number is not greater than 0
-    else {
-      System.out.println("el tipo int puede hacer esto..");
-    }
-    
-  }
-}
+	    // checks if number is greater than 0
+	    if (intsPuedeAlmacenarDecimales > 0) {
+	      System.out.println("el tipo int no puede contener un numero decimal.");
+	    }
+
+	    // execute this block
+	    // if number is not greater than 0
+	    else {
+	      System.out.println("el tipo int puede hacer esto..");
+	    }
+
+	  }
+	}
 
 12. Considera el código del siguiente programa escrito en Java cuyo nombre del
 archivo es Char.java: (Valor 2 puntos)
@@ -308,22 +308,22 @@ c. Escribe la salida.
 		
 ## Answer:
 
-import java.util.Scanner;
+	import java.util.Scanner;
 
-public class Poema { 
-    public static void main(String[] args) {
+	public class Poema { 
+	    public static void main(String[] args) {
 
-      Scanner input = new Scanner(System.in);
+	      Scanner input = new Scanner(System.in);
 
-      String verso = "Aqui no suceden cosas de mayor trascendencia que las rosas.";
-      System.out.println("Salida:");
-      System.out.print(verso);
+	      String verso = "Aqui no suceden cosas de mayor trascendencia que las rosas.";
+	      System.out.println("Salida:");
+	      System.out.print(verso);
 
-// closing the scanner object
-input.close();
- 
-   }
-}
+	// closing the scanner object
+	input.close();
+
+	   }
+	}
 
 14. Considera el código del siguiente programa escrito en Java cuyo nombre del
 archivo es MiPerfil.java: (Valor 3 puntos)
