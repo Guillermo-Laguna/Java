@@ -227,24 +227,23 @@ c. Escribe la salida.
 
 	public class Booleans {
 	  public static void main(String[] args) {
-	    Scanner input = new Scanner(System.in);
-	    double intsPuedeAlmacenarDecimales = 70.97;
-	    System.out.println("Salida:");
-	    System.out.println(intsPuedeAlmacenarDecimales);
-	// closing the scanner object
-	input.close();
+	      Scanner input = new Scanner(System.in);
+	      double intsPuedeAlmacenarDecimales = 70.97;
+	      System.out.println("Salida:");
+	      System.out.println(intsPuedeAlmacenarDecimales);
+	      // closing the scanner object
+	  input.close();
 
-	    // checks if number is greater than 0
-	    if (intsPuedeAlmacenarDecimales > 0) {
-	      System.out.println("el tipo int no puede contener un numero decimal.");
-	    }
+	     // checks if number is greater than 0
+	     if (intsPuedeAlmacenarDecimales > 0) {
+	       System.out.println("el tipo int no puede contener un numero decimal.");
+	     }
 
 	    // execute this block
 	    // if number is not greater than 0
 	    else {
 	      System.out.println("el tipo int puede hacer esto..");
 	    }
-
 	  }
 	}
 
