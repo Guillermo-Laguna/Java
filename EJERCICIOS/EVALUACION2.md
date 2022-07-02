@@ -268,6 +268,24 @@ d. Escribe la salida.
 
                 Salida:
                 M
+## Answer:
+
+import java.util.Scanner;
+// Guillermo
+public class Char { 
+    public static void main(String[] args) {
+
+      Scanner input = new Scanner(System.in);
+
+      char primerLetra_de_tipo_char = 'G';
+      System.out.println("Salida:");
+      System.out.print(primerLetra_de_tipo_char);
+
+// closing the scanner object
+input.close();
+ 
+   }
+}
 
 13. Considera el código del siguiente programa escrito en Java cuyo nombre del
 archivo es Poema.java: (Valor 2 puntos)
