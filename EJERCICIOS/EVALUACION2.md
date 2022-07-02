@@ -305,6 +305,25 @@ c. Escribe la salida.
 
                 Salida:
                 Aquí no suceden cosas de mayor trascendencia que las rosas.
+		
+## Answer:
+
+import java.util.Scanner;
+
+public class Poema { 
+    public static void main(String[] args) {
+
+      Scanner input = new Scanner(System.in);
+
+      String verso = "Aqui no suceden cosas de mayor trascendencia que las rosas.";
+      System.out.println("Salida:");
+      System.out.print(verso);
+
+// closing the scanner object
+input.close();
+ 
+   }
+}
 
 14. Considera el código del siguiente programa escrito en Java cuyo nombre del
 archivo es MiPerfil.java: (Valor 3 puntos)
