@@ -104,11 +104,11 @@ class Creator {
     	
         Scanner input = new Scanner(System.in);
     	
-        System.out.println("Salida: ");
         String nombre = "James Gosling";
         int yearCreado = 1995;
+        System.out.println("Salida:");
         System.out.println(nombre);
-        System.out.println(yearCreado);
+        System.out.print(yearCreado);
 
         // closing the scanner object
         input.close();
