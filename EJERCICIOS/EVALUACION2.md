@@ -149,15 +149,15 @@ c. Escribe la salida.
 	//Este es el metodo main que se ejecuta cuando compilas
 	    public static void main(String[] args) {
 
-	    Scanner input = new Scanner(System.in);
-	//Aqui es donde vas a definir tu variable	
-	    int numComments = 6;
-	//Aqui es donde vas a imprimir tu variable
-	    System.out.println("Salida:");
-	    System.out.println(numComments);
+	       Scanner input = new Scanner(System.in);
+	       //Aqui es donde vas a definir tu variable	
+	       int numComments = 6;
+	       //Aqui es donde vas a imprimir tu variable
+	       System.out.println("Salida:");
+	       System.out.println(numComments);
 
-	    // closing the scanner object
-	    input.close();
+	       // closing the scanner object
+	       input.close();
 	    }
 	//Este es el final de la class
 	}
