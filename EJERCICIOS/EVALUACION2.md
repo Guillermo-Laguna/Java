@@ -183,6 +183,24 @@ c. Escribe la salida.
 
                 Salida:
                 70.97
+                
+ ## Answer:
+ 
+import java.util.Scanner;
+
+public class CuotaMercado { 
+  public static void main(String[] args) {
+
+    Scanner input = new Scanner(System.in);
+	
+    double androidCuota = 70.97;
+    System.out.println("Salida:");
+    System.out.print(androidCuota);
+  
+    // closing the scanner object
+    input.close();
+  }
+}
 
 11. Considera el código del siguiente programa escrito en Java cuyo nombre del
 archivo es Booleans.java: (Valor 2 puntos)
