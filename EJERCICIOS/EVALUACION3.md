@@ -156,8 +156,8 @@ Salida:
           // closing the scanner object
           input.close();
 
-             }
-          }
+         }
+     }
 
                                
  ## Otros ejemplos 
