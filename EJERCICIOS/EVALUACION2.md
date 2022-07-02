@@ -362,3 +362,29 @@ g. Escribe la salida.
               500000.01
               n
               true
+## Answer:
+
+import java.util.Scanner;
+
+public class MyProfile { 
+    public static void main(String[] args) {
+
+       Scanner input = new Scanner(System.in);
+       System.out.println("Salida:");
+       String nombre = "Guillermo";
+       int edad = 44;
+       double salarioDeseado = 38000.50;
+       char genero = 'm';
+       boolean buscandoTrabajo = true;
+      
+       System.out.println(nombre);
+       System.out.println(edad);
+       System.out.println(salarioDeseado);
+       System.out.println(genero);
+       System.out.println(buscandoTrabajo);
+
+// closing the scanner object
+input.close();
+ 
+   }
+}
