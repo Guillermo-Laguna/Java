@@ -221,6 +221,33 @@ c. Escribe la salida.
                 Salida:
                 70.97
 
+## Answer:
+
+import java.util.Scanner;
+
+public class Booleans {
+  public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+    double intsPuedeAlmacenarDecimales = 70.97;
+    System.out.println("Salida:");
+    System.out.println(intsPuedeAlmacenarDecimales);
+// closing the scanner object
+input.close();
+
+    // checks if number is greater than 0
+    if (intsPuedeAlmacenarDecimales > 0) {
+      System.out.println("el tipo int no puede contener un numero decimal.");
+    }
+    
+    // execute this block
+    // if number is not greater than 0
+    else {
+      System.out.println("el tipo int puede hacer esto..");
+    }
+    
+  }
+}
+
 12. Considera el código del siguiente programa escrito en Java cuyo nombre del
 archivo es Char.java: (Valor 2 puntos)
 
