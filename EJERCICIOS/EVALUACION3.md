@@ -160,7 +160,7 @@ Salida:
      }
 
                                
- ## Otros ejemplos 
+ ## Otro ejemplo de banco 2
  
  if (puedoSacar(cantidad))
 saldo = saldo – cantidad;
@@ -205,7 +205,7 @@ saldo = saldo – cantidad;
 }
 
 
- ## Ejemplo 2
+ ## Otro ejemplo de banco 3
  
  public class Banco {
     public static void main(String[] args) {
