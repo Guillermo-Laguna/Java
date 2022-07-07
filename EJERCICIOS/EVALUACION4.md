@@ -43,7 +43,7 @@ las siguientes series haciendo uso necesariamente de las sentencias de control:
 
 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ... así sucesivamente.
 
-## Answer 1: Muestra Serie Fibonacci usando bucle for 
+## Answer 1: Muestra la Serie de Fibonacci usando bucle for 
 
   public class Main {
 
@@ -63,7 +63,7 @@ las siguientes series haciendo uso necesariamente de las sentencias de control:
     }
   }
 
-## Answer 2: Muestra Serie Fibonacci usando bucle while
+## Answer 2: Muestra la Serie de Fibonacci usando bucle while
 
   public class Main {
 
@@ -84,3 +84,23 @@ las siguientes series haciendo uso necesariamente de las sentencias de control:
     }
   }
 
+## Answer 3: Muestra la Serie de Fibonacci hasta un número dado
+
+  public class Fibonacci {
+
+    public static void main(String[] args) {
+
+      int n = 377, primerTermino = 0, segundoTermino = 1;
+
+      System.out.println("Serie Fibonacci hasta en " + n + ": ");
+
+      while (primerTermino <= n) {
+        System.out.print(primerTermino + ", ");
+
+        int siguienteTermino = primerTermino + segundoTermino;
+        primerTermino = segundoTermino;
+        segundoTermino = siguienteTermino;
+
+      }
+    }
+  }
