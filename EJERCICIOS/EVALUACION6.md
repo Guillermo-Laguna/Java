@@ -129,8 +129,8 @@ puntos)
 
                    int numeros [] = {12, 10, 4, 24, 5, 9};
                    System.out.println("El arreglo en la posición “número de posición” tiene el número “imprimir el número que se encuentre en esa posición”");  
-                   for(int i=0; i < productos.length; i++){
-                       System.out.println(productos[i] + " " + precios[i]);
+                   for(int i=0; i < numeros.length; i++){
+                       System.out.println(numeros[i] + " " + numero de posicion[i]);
                     }
                 }
     }
