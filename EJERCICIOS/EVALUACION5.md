@@ -33,6 +33,8 @@ estructura switch - case? (Valor 1)
       b. El default es opcional.
       c. Todas las anteriores.
       
+## Answer: a
+      
 3. ¿Cuál es una afirmación incorrecta de la estructura switch – case? (Valor 1)
 
         a. La instrucción switch no nos permite reemplazar varias construcciones
