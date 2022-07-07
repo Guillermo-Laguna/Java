@@ -13,6 +13,7 @@ clara, según sea el caso.
         b. Son colecciones de variables de un mismo tipo que se referencian utilizando
         un nombre común.
         c. Conjunto de variables del mismo tipo cuyo acceso se realiza por índice
+ ## Answer: c (Checar)
         
 2. De la siguiente ilustración de un arreglo, coloca los elementos según corresponda.
 (Valor 1 punto)
@@ -46,6 +47,7 @@ punto)
         a. Una columna
         b. n columnas
         c. m filas y n columnas
+## Answer: c
         
 7. Sea un arreglo vector[] conformado por 10 elementos, ¿Qué muestra si se escribe
 en el código vector[10]? (Valor 1 punto)
