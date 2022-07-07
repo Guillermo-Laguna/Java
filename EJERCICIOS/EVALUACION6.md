@@ -121,7 +121,7 @@ puntos)
       número que se encuentre en esa posición”.
       i. Ejemplo. El arreglo en la posición 2 tiene el número 4.
       
-## Answer 1:
+## Answer:
 
 public class Main {
         public static void main(String[] args) {
@@ -145,7 +145,7 @@ public class Main {
     }
 
     
-## Answer 2:
+## Otro ejemplo:
 
 public class Main {
     public static void main(String[] args) {
