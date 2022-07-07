@@ -39,6 +39,22 @@ las siguientes series haciendo uso necesariamente de las sentencias de control:
 
 1, 3, 5, 7, 9, 11, 13, 15, 17, .... así sucesivamente.
 
+## Answer 1: Muestra Serie de 15 Impares Positivos usando bucle for
+
+  public class Main {
+
+    public static void main(String[] args) {
+
+      for(int i=0; i<=29;i++)
+      {
+          if((i%2)!=0)
+          {
+              System.out.println(i);
+          }
+      }
+    }
+  }
+
 ● Serie de Fibonacci
 
 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ... así sucesivamente.
