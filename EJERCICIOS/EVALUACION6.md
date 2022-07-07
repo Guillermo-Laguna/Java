@@ -124,25 +124,24 @@ puntos)
 ## Answer:
 
 public class Main {
-        public static void main(String[] args) {
 
-            // crear un arreglo
-            int[] numeros = {12, 10, 4, 24, 5, 9};
+    public static void main(String[] args) {
 
-            //  realizar un ciclo que recorra todo el arreglo 
-            //  usar el bucle for 
+        // crear un arreglo
+        int[] numeros = {12, 10, 4, 24, 5, 9};
 
-            for(int i = 0; i < numeros.length; i++) {
-                System.out.println(numeros[i]);
-                }   
-                System.out.println("El arreglo en la posicion 1 tiene el numero: " + numeros[0]);
-                System.out.println("El arreglo en la posicion 2 tiene el numero: " + numeros[1]);
-                System.out.println("El arreglo en la posicion 3 tiene el numero: " + numeros[2]);
-                System.out.println("El arreglo en la posicion 4 tiene el numero: " + numeros[3]);
-                System.out.println("El arreglo en la posicion 5 tiene el numero: " + numeros[4]);
-                System.out.println("El arreglo en la posicion 6 tiene el numero: " + numeros[5]);
-        }
+        //  realizar un ciclo que recorra todo el arreglo, usando un bucle for
+        for(int i = 0; i < numeros.length; i++) {
+            System.out.println(numeros[i]);
+            }
+            System.out.println("El arreglo en la posicion 1 tiene el numero: " + numeros[0]);
+            System.out.println("El arreglo en la posicion 2 tiene el numero: " + numeros[1]);
+            System.out.println("El arreglo en la posicion 3 tiene el numero: " + numeros[2]);
+            System.out.println("El arreglo en la posicion 4 tiene el numero: " + numeros[3]);
+            System.out.println("El arreglo en la posicion 5 tiene el numero: " + numeros[4]);
+            System.out.println("El arreglo en la posicion 6 tiene el numero: " + numeros[5]);
     }
+}
 
     
 
