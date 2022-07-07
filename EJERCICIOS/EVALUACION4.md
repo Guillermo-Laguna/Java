@@ -43,23 +43,25 @@ las siguientes series haciendo uso necesariamente de las sentencias de control:
 
 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ... así sucesivamente.
 
-## Answer: Muestra Series Fibonacci usando for Loop
+## Answer 1: Muestra Series Fibonacci usando bucle for 
 
-    public class Main {
+  public class Main {
+    public static void main(String[] args) {
 
-      public static void main(String[] args) {
+      int n = 10, primerTermino = 0, segundoTermino = 1;
+      System.out.println("Serie Fibonacci hasta " + n + " terminos:");
 
-        int n = 10, firstTerm = 0, secondTerm = 1;
-        System.out.println("Fibonacci Series till " + n + " terms:");
+      for (int i = 1; i <= n; ++i) {
+        System.out.print(primerTermino + ", ");
 
-        for (int i = 1; i <= n; ++i) {
-          System.out.print(firstTerm + ", ");
-
-          // compute the next term
-          int nextTerm = firstTerm + secondTerm;
-          firstTerm = secondTerm;
-          secondTerm = nextTerm;
-        }
+        // compute the next term
+        int siguienteTermino = primerTermino + segundoTermino;
+        primerTermino = segundoTermino;
+        segundoTermino = siguienteTermino;
       }
     }
+  }
+
+## Answer 2: 
+
 
