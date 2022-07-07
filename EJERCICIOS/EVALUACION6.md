@@ -36,6 +36,7 @@ punto)
       a. Do - While
       b. For
       c. While
+## Answer: 
       
  5. ¿Cómo se le conoce a los arreglos unidimensionales? (Valor 1 punto)
  
@@ -57,6 +58,7 @@ en el código vector[10]? (Valor 1 punto)
       a. Nada.
       b. Todo el contenido.
       c. Lo que tengo en la posición 10 de mi arreglo.
+## Answer: c    
       
 8. Si se ejecuta el siguiente código, ¿Qué imprime la línea 5 y la línea 7? (Valor 2
 puntos)
