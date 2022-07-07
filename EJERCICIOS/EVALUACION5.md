@@ -34,6 +34,7 @@ estructura switch - case? (Valor 1)
       c. Todas las anteriores.
       
 ## Answer: a
+Cuando ningún valor coincide, se ejecuta el bloque predeterminado (default).
       
 3. ¿Cuál es una afirmación incorrecta de la estructura switch – case? (Valor 1)
 
