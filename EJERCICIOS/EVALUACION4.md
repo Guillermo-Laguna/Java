@@ -39,7 +39,7 @@ las siguientes series haciendo uso necesariamente de las sentencias de control:
 
 1, 3, 5, 7, 9, 11, 13, 15, 17, .... así sucesivamente.
 
-## Answer 1: Muestra Serie de 15 Impares Positivos usando bucle for
+## Answer 1: Muestra Serie de 15 Impares Positivos con bucle for
 
   public class Main {
 
