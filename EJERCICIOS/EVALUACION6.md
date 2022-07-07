@@ -120,3 +120,17 @@ puntos)
       arreglo en la posición “número de posición” tiene el número “imprimir el
       número que se encuentre en esa posición”.
       i. Ejemplo. El arreglo en la posición 2 tiene el número 4.
+      
+## Answer:
+
+ public class Main {
+
+               public static void main(String[] args) {
+
+                   int numeros [] = {12, 10, 4, 24, 5, 9};
+                   System.out.println("El arreglo en la posición “número de posición” tiene el número “imprimir el número que se encuentre en esa posición”");  
+                   for(int i=0; i < productos.length; i++){
+                       System.out.println(productos[i] + " " + precios[i]);
+                    }
+                }
+    }
