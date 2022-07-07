@@ -123,14 +123,34 @@ puntos)
       
 ## Answer:
 
- public class Main {
+         public class Main {
+            public static void main(String[] args) {
 
-               public static void main(String[] args) {
+                // crear un arreglo
+                int[] numeros = {12, 10, 4, 24, 5, 9};
 
-                   int numeros [] = {12, 10, 4, 24, 5, 9};
-                   System.out.println("El arreglo en la posición “número de posición” tiene el número “imprimir el número que se encuentre en esa posición”");  
-                   for(int i=0; i < numeros.length; i++){
-                       System.out.println(numeros[i] + " " + numero de posicion[i]);
-                    }
+                //  realizar un ciclo que recorra todo el arreglo 
+                //  usar el bucle for 
+                System.out.println("Usando el bucle for:");
+                for(int i = 0; i < numeros.length; i++) {
+                    System.out.println(numeros[i]);
                 }
+            }
+        }
+    
+public class Main {
+    public static void main(String[] args) {
+  
+       // Crea un arreglo llamado números el cual tenga los siguientes elementos
+       int[] age = {12, 10, 4, 24, 5, 9};
+
+       // Realiza un ciclo que recorra todo el arreglo y en cada pasada, imprima El
+      arreglo en la posición
+       System.out.println("Accessing Elements of Array:");
+       System.out.println("First Element: " + age[0]);
+       System.out.println("Second Element: " + age[1]);
+       System.out.println("Third Element: " + age[2]);
+       System.out.println("Fourth Element: " + age[3]);
+       System.out.println("Fifth Element: " + age[4]);
     }
+}    
