@@ -19,6 +19,7 @@ clara, según sea el caso.
 (Valor 1 punto)
 
 ![image](https://user-images.githubusercontent.com/91554777/176980202-f705e695-3175-47eb-8e54-5c2cfd5ae148.png)
+## Answer: 
 
 3. Tomando el siguiente arreglo, contesta las siguientes preguntas: (Valor 2 puntos)
 
@@ -27,7 +28,7 @@ clara, según sea el caso.
       a. ¿Qué tipo de dato tiene el arreglo?
       b. ¿Qué valor se encuentra en la posición con el índice 4?
       c. ¿Cuál es el rango de índices del arreglo?
-## Answers a: double, b: 8.3, c: 10 (length=longitud)
+## Answers: a. double, b. 8.3, c. 10 (length=longitud)
 
       
  4. ¿Qué tipo de ciclo se adapta fácilmente para el manejo de un arreglo? (Valor 1
