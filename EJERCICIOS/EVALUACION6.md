@@ -13,7 +13,7 @@ clara, según sea el caso.
         b. Son colecciones de variables de un mismo tipo que se referencian utilizando
         un nombre común.
         c. Conjunto de variables del mismo tipo cuyo acceso se realiza por índice
- ## Answer: c (Checar)
+ ## Answer: a
         
 2. De la siguiente ilustración de un arreglo, coloca los elementos según corresponda.
 (Valor 1 punto)
@@ -27,7 +27,7 @@ clara, según sea el caso.
       a. ¿Qué tipo de dato tiene el arreglo?
       b. ¿Qué valor se encuentra en la posición con el índice 4?
       c. ¿Cuál es el rango de índices del arreglo?
-## Answers a: double b: 8.3 c: 10 (longitud)
+## Answers a: double, b: 8.3, c: 10 (length=longitud)
 
       
  4. ¿Qué tipo de ciclo se adapta fácilmente para el manejo de un arreglo? (Valor 1
