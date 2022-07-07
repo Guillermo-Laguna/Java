@@ -98,18 +98,18 @@ puntos)
       
 ## Answer: a
 
-public class Main {
+        public class Main {
 
-           public static void main(String[] args) {
-               
-                String productos [] = {"Paleta", "Papas", "Galletas de chocolate", "Refresco"};
-                double precios [] = {2.50, 14.00, 15.50, 34.70};
-                    System.out.println("Lista de Productos");  
-                for(int i=0; i < productos.length; i++){
-                    System.out.println(productos[i] + " " + precios[i]);
-                }
-            }
-}
+                   public static void main(String[] args) {
+
+                       String productos [] = {"Paleta", "Papas", "Galletas de chocolate", "Refresco"};
+                       double precios [] = {2.50, 14.00, 15.50, 34.70};
+                       System.out.println("Lista de Productos");  
+                       for(int i=0; i < productos.length; i++){
+                           System.out.println(productos[i] + " " + precios[i]);
+                        }
+                    }
+        }
     
  9. Crea un programa en java considerando las siguientes instrucciones: (Valor 2
 puntos)
