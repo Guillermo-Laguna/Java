@@ -38,8 +38,7 @@ punto)
  
         a. Matriz
         b. Contador
-        c. Vector
-        
+        c. Vector    
 ## Answer: c
    
 6. Un arreglo bidimensional es aquel que consta de: (Valor 1 punto)
