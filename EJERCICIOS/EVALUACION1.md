@@ -38,9 +38,7 @@ traducido a un lenguaje que la computadora entiende. (Valor 1 punto)
 
         a. Cierto
         b. Falso
-## Answer: b 
-
-/* It is necessary to give the indentation to the code and add semicolon in the third line */
+## Answer: b // It is necessary to give the indentation to the code and in the third line to remove accent and also add semicolon
 
         public class LanguagesFacts{
             public static void main(String[] args) {
