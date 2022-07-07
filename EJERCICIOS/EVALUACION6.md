@@ -145,20 +145,5 @@ public class Main {
     }
 
     
-## Otro ejemplo:
 
-public class Main {
-    public static void main(String[] args) {
-
-        // crear un arreglo
-        int[] numeros = {12, 10, 4, 24, 5, 9};
-
-        //  realizar un ciclo que recorra todo el arreglo 
-        //  usar el bucle for 
-        System.out.println("Usando el bucle for:");
-        for(int i = 0; i < numeros.length; i++) {
-            System.out.println(numeros[i]);
-            }
-     }
-}
 
