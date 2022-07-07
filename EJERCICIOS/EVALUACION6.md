@@ -19,7 +19,7 @@ clara, según sea el caso.
 (Valor 1 punto)
 
 ![image](https://user-images.githubusercontent.com/91554777/176980202-f705e695-3175-47eb-8e54-5c2cfd5ae148.png)
-## Answer: i0=8, i1=23, i2=5, i3=7, i4=12, i5=4, i6=6, i7=14
+## Answer: i0=8, i1=23, i2=5, i3=7, i4=12, i5=4, i6=6, i7=44
 El elemento del índice 3 es 7. Este arreglo tiene una longitud de 8, ya que contiene 8 elementos y el índice más grande del arreglo es 7, cuyo elemento es 44.
 
 3. Tomando el siguiente arreglo, contesta las siguientes preguntas: (Valor 2 puntos)
