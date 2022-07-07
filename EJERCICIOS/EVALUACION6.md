@@ -39,7 +39,8 @@ punto)
       b. For
       c. While
       
-## Answer: b (el más fácil es for-each)
+## Answer: b (el bucle for-each es más fácil)
+Si comparas el bucle for y el bucle for-each, verás que el procedimiento for-each es más fácil de escribir, no requiere un contador (usando la propiedad de longitud) y es más legible.
       
  5. ¿Cómo se le conoce a los arreglos unidimensionales? (Valor 1 punto)
  
