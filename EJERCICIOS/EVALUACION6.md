@@ -37,7 +37,8 @@ punto)
       a. Do - While
       b. For
       c. While
-## Answer: 
+      
+## Answer: b
       
  5. ¿Cómo se le conoce a los arreglos unidimensionales? (Valor 1 punto)
  
