@@ -63,6 +63,24 @@ las siguientes series haciendo uso necesariamente de las sentencias de control:
     }
   }
 
-## Answer 2: 
+## Answer 2: Muestra Serie Fibonacci usando bucle while
 
+  public class Main {
+
+    public static void main(String[] args) {
+
+      int i = 1, n = 15, primerTermino = 0, segundoTermino = 1;
+      System.out.println("Serie Fibonacci hasta en " + n + " terminos:");
+
+      while (i <= n) {
+        System.out.print(primerTermino + ", ");
+
+        int siguienteTermino = primerTermino + segundoTermino;
+        primerTermino = segundoTermino;
+        segundoTermino = siguienteTermino;
+
+        i++;
+      }
+    }
+  }
 
