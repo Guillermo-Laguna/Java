@@ -13,18 +13,25 @@ breve y clara.
 
 ## Answer:
 
-      switch (expresión) {
-      case valor1:
-          // codigo
-          break;
-      case valor2:
-          // codigo
-          break;
-      ...
-      ...
-      default:
-          // declaraciones predeterminadas
-      }
+      //La sentencia switch nos permite ejecutar un bloque de codigo entre muchas alternativas.
+      // La sintaxis de la estructura switch es la siguiente:
+
+            switch (expresion) {
+            case valor1:
+               // codigo
+              break;
+       // La expresion se evalua una vez y se compara con los valores de cada caso.
+       // Si la expresion coincide con el valor1, el codigo de case valor1 se executa.
+            case valor2:
+               // codigo
+              break;
+       // Del mismo modo el codigo de case valor2 se executa si la expresion coincide con valor2.
+       // Si no hay coincidencia, se ejecuta el codigo del caso predeterminado.
+            ...
+            ...
+            default:
+                // declaraciones predeterminadas
+            }
 
 2. ¿Cual de las siguientes oraciones es correcta acerca del default dentro de la
 estructura switch - case? (Valor 1)
