@@ -27,8 +27,7 @@ clara, según sea el caso.
       a. ¿Qué tipo de dato tiene el arreglo?
       b. ¿Qué valor se encuentra en la posición con el índice 4?
       c. ¿Cuál es el rango de índices del arreglo?
-## Answer a: double
-       ## b: 
+## Answers a: double b: c:10 (longitud)
 
       
  4. ¿Qué tipo de ciclo se adapta fácilmente para el manejo de un arreglo? (Valor 1
