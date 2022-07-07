@@ -45,20 +45,21 @@ las siguientes series haciendo uso necesariamente de las sentencias de control:
 
 ## Answer: Muestra Series Fibonacci usando for Loop
 
-  public class Main {
-    public static void main(String[] args) {
+    public class Main {
 
-      int n = 10, firstTerm = 0, secondTerm = 1;
-      System.out.println("Fibonacci Series till " + n + " terms:");
+      public static void main(String[] args) {
 
-      for (int i = 1; i <= n; ++i) {
-        System.out.print(firstTerm + ", ");
+        int n = 10, firstTerm = 0, secondTerm = 1;
+        System.out.println("Fibonacci Series till " + n + " terms:");
 
-        // compute the next term
-        int nextTerm = firstTerm + secondTerm;
-        firstTerm = secondTerm;
-        secondTerm = nextTerm;
+        for (int i = 1; i <= n; ++i) {
+          System.out.print(firstTerm + ", ");
+
+          // compute the next term
+          int nextTerm = firstTerm + secondTerm;
+          firstTerm = secondTerm;
+          secondTerm = nextTerm;
+        }
       }
     }
-  }
 
