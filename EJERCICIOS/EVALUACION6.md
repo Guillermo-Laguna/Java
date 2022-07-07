@@ -121,36 +121,44 @@ puntos)
       número que se encuentre en esa posición”.
       i. Ejemplo. El arreglo en la posición 2 tiene el número 4.
       
-## Answer:
+## Answer 1:
 
-         public class Main {
-            public static void main(String[] args) {
+public class Main {
+        public static void main(String[] args) {
 
-                // crear un arreglo
-                int[] numeros = {12, 10, 4, 24, 5, 9};
+            // crear un arreglo
+            int[] numeros = {12, 10, 4, 24, 5, 9};
 
-                //  realizar un ciclo que recorra todo el arreglo 
-                //  usar el bucle for 
-                System.out.println("Usando el bucle for:");
-                for(int i = 0; i < numeros.length; i++) {
-                    System.out.println(numeros[i]);
-                }
-            }
+            //  realizar un ciclo que recorra todo el arreglo 
+            //  usar el bucle for 
+
+            for(int i = 0; i < numeros.length; i++) {
+                System.out.println(numeros[i]);
+                }   
+                System.out.println("El arreglo en la posicion 1 tiene el numero: " + numeros[0]);
+                System.out.println("El arreglo en la posicion 2 tiene el numero: " + numeros[1]);
+                System.out.println("El arreglo en la posicion 3 tiene el numero: " + numeros[2]);
+                System.out.println("El arreglo en la posicion 4 tiene el numero: " + numeros[3]);
+                System.out.println("El arreglo en la posicion 5 tiene el numero: " + numeros[4]);
+                System.out.println("El arreglo en la posicion 6 tiene el numero: " + numeros[5]);
         }
+    }
+
     
+## Answer 2:
+
 public class Main {
     public static void main(String[] args) {
-  
-       // Crea un arreglo llamado números el cual tenga los siguientes elementos
-       int[] age = {12, 10, 4, 24, 5, 9};
 
-       // Realiza un ciclo que recorra todo el arreglo y en cada pasada, imprima El
-      arreglo en la posición
-       System.out.println("Accessing Elements of Array:");
-       System.out.println("First Element: " + age[0]);
-       System.out.println("Second Element: " + age[1]);
-       System.out.println("Third Element: " + age[2]);
-       System.out.println("Fourth Element: " + age[3]);
-       System.out.println("Fifth Element: " + age[4]);
-    }
-}    
+        // crear un arreglo
+        int[] numeros = {12, 10, 4, 24, 5, 9};
+
+        //  realizar un ciclo que recorra todo el arreglo 
+        //  usar el bucle for 
+        System.out.println("Usando el bucle for:");
+        for(int i = 0; i < numeros.length; i++) {
+            System.out.println(numeros[i]);
+            }
+     }
+}
+
