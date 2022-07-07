@@ -60,6 +60,8 @@ de un caso? (Valor 1)
       c. break
       d. switch
       
+## Answer: c
+      
 6. Crea el código en java bajo las siguientes instrucciones: (Valor 3)
 
         a. Importa la clase Scanner para la lectura de datos.
