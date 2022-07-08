@@ -82,8 +82,7 @@ de un caso? (Valor 1)
         e. Crea una estructura switch-case, donde la variable a comparar con todos los
         casos es dia.
         f. En cada caso, coloca e imprime cada día de la semana (comenzando el Lunes).
-        g. Si se ingresa un número de día no válido, imprime el mensaje Número no
-        válido.
+        g. Si se ingresa un número de día no válido, imprime el mensaje Número no válido.
         
 ## Answer:
 
@@ -136,9 +135,9 @@ public class diadelaSemana {
       case 7:
         System.out.println("Hoy es Domingo);
         break;
-
+      // g. Si se ingresa un número de día no válido, imprime el mensaje Número no válido.
       default:
-        System.out.println("Invalid operator!");
+        System.out.println("Numero no valido");
         break;
     }
 
