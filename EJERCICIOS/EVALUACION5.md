@@ -92,25 +92,30 @@ de un caso? (Valor 1)
 //a. Importa la clase Scanner para la lectura de datos.
 import java.util.Scanner;
 
-class Main {
+public class diadelaSemana {
   public static void main(String[] args) {
   
 //c. Crea una variable dia de tipo entero.
-    int operator;
-    Double number1, number2, result;
-
+    int dia;
+    
     // b. Crea un objeto semana de la clase Scanner.
-    Scanner semana = new Scanner(System.in);
+    Scanner ingresa = new Scanner(System.in);
 
     // ask users to enter operator
-    System.out.println("Choose an operator: +, -, *, or /");
+    System.out.println("Dame un numero");
     operator = input.next().charAt(0);
 
     // ask users to enter numbers
-    System.out.println("Enter first number");
+    System.out.println("El numero 1 corresponde al dia lunes");
     number1 = input.nextDouble();
 
-    System.out.println("Enter second number");
+    System.out.println("El numero 2 corresponde al dia martes");
+    number2 = input.nextDouble();
+    
+    System.out.println("El numero 3 corresponde al dia miercoles");
+    number2 = input.nextDouble();
+    
+    System.out.println("El numero 4 corresponde al dia jueves");
     number2 = input.nextDouble();
 
     switch (operator) {
