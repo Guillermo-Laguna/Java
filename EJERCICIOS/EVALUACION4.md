@@ -33,25 +33,24 @@ Salida:
             
 ## Answer:
 
-    public class pedido {
-        public static void main(String[] args) {
-          double costoArticulo = 30.99;
-          boolean listoEnviar=false;
+      public class pedido {
+          public static void main(String[] args) {
+            double costoArticulo = 30.99;
+            boolean listoEnviar=false;
 
-          // checks if number is greater than 0
-          if (costoArticulo > 24.00) {
-            System.out.println("El valor del articulo es alto!");
-          }
+            // verifica si el costoArticulo es mas grande que 24.00
+            if (costoArticulo > 24.00) {
+              System.out.println("El valor del articulo es alto!");
+            }
 
-          // execute this block
-          // if number is not greater than 0
-          else {
-            System.out.println("Enviado");
-          }
+            // si costoArticulo no es mas grande que 24.00
+            else {
+              System.out.println("Enviado");
+            }
 
-          System.out.println("Pedido no listo");
+            System.out.println("Pedido no listo");
+        }
       }
-    }
 
 2. Realiza un programa en java que imprima los primeros 15 elementos de alguna de
 las siguientes series haciendo uso necesariamente de las sentencias de control:
