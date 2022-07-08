@@ -61,6 +61,8 @@ estructura switch - case? (Valor 1)
       b) Línea 1, 5, 10, 15
       c) Línea 1, 9 10, 14
       
+## Answer: c
+      
  5. En la estructura switch - case, ¿cuál instrucción se usa para terminar la secuencia
 de un caso? (Valor 1)
 
