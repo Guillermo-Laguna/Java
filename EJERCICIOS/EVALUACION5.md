@@ -60,8 +60,7 @@ estructura switch - case? (Valor 1)
       a) Líneas 1, 3, 5, 10
       b) Línea 1, 5, 10, 15
       c) Línea 1, 9 10, 14
-      
-## Answer: c
+## Answer: c  
       
  5. En la estructura switch - case, ¿cuál instrucción se usa para terminar la secuencia
 de un caso? (Valor 1)
@@ -70,9 +69,8 @@ de un caso? (Valor 1)
       b. case
       c. break
       d. switch
-      
-## Answer: c
-      
+## Answer: c     
+     
 6. Crea el código en java bajo las siguientes instrucciones: (Valor 3)
 
         a. Importa la clase Scanner para la lectura de datos.
@@ -95,14 +93,15 @@ import java.util.Scanner;
 public class diadelaSemana {
   public static void main(String[] args) {
   
-//c. Crea una variable dia de tipo entero.
+    //c. Crea una variable dia de tipo entero.
     int dia;
     
     // b. Crea un objeto semana de la clase Scanner.
-    Scanner ingresa = new Scanner(System.in);
+    Scanner ingresaSemana = new Scanner(System.in);
 
     // ask users to enter operator
-    System.out.println("Dame un numero");
+    System.out.println("Introduce un numero del 1 al 7 para conocer el dia de la
+        semana");
     operator = input.next().charAt(0);
 
     // ask users to enter numbers
