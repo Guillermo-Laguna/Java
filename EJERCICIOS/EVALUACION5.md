@@ -91,6 +91,7 @@ de un caso? (Valor 1)
 import java.util.Scanner;
 
 public class diadelaSemana {
+
   public static void main(String[] args) {
   
     //c. Crea una variable dia de tipo entero.
@@ -99,35 +100,21 @@ public class diadelaSemana {
     // b. Crea un objeto semana de la clase Scanner.
     Scanner ingresaSemana = new Scanner(System.in);
 
-    // ask users to enter operator
+    // d. Imprime texto para hacer lectura del dato desde teclado y almacenarlo en la variable dia.
     System.out.println("Introduce un numero del 1 al 7 para conocer el dia de la
-        semana");
-    operator = input.next().charAt(0);
-
-    // ask users to enter numbers
-    System.out.println("El numero 1 corresponde al dia lunes");
-    number1 = input.nextDouble();
-
-    System.out.println("El numero 2 corresponde al dia martes");
-    number2 = input.nextDouble();
+        semana: ");
+    dia = ingresaSemana.nextInt();
     
-    System.out.println("El numero 3 corresponde al dia miercoles");
-    number2 = input.nextDouble();
-    
-    System.out.println("El numero 4 corresponde al dia jueves");
-    number2 = input.nextDouble();
+   // e. Crea una estructura switch-case, donde la variable a comparar con todos los casos es dia.
+    switch (dia) {
 
-    switch (operator) {
-
-      // performs addition between numbers
-      case '+':
-        result = number1 + number2;
+      // f. En cada caso, coloca e imprime cada dia de la semana (comenzando el Lunes).
+      case 1:
         System.out.println(number1 + " + " + number2 + " = " + result);
         break;
 
-      // performs subtraction between numbers
-      case '-':
-        result = number1 - number2;
+      // 
+      case 2:
         System.out.println(number1 + " - " + number2 + " = " + result);
         break;
 
