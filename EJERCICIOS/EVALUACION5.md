@@ -86,62 +86,62 @@ de un caso? (Valor 1)
         
 ## Answer:
 
-//a. Importa la clase Scanner para la lectura de datos.
-import java.util.Scanner;
+      //a. Importa la clase Scanner para la lectura de datos.
+      import java.util.Scanner;
 
-public class diadelaSemana {
+      public class diadelaSemana {
 
-  public static void main(String[] args) {
-  
-    //c. Crea una variable dia de tipo entero.
-    int dia;
-    
-    // b. Crea un objeto semana de la clase Scanner.
-    Scanner ingresaSemana = new Scanner(System.in);
+        public static void main(String[] args) {
 
-    // d. Imprime texto para hacer lectura del dato desde teclado y almacenarlo en la variable dia.
-    System.out.println("Introduce un numero del 1 al 7 para conocer el dia de la
-        semana: ");
-    dia = ingresaSemana.nextInt();
-    
-   // e. Crea una estructura switch-case, donde la variable a comparar con todos los casos es dia.
-    switch (dia) {
+          //c. Crea una variable dia de tipo entero.
+          int dia;
 
-      // f. En cada caso, coloca e imprime cada dia de la semana (comenzando el Lunes).
-      case 1:
-        System.out.println("Hoy es Lunes");
-        break;
+          // b. Crea un objeto semana de la clase Scanner.
+          Scanner ingresaSemana = new Scanner(System.in);
 
-      case 2:
-        System.out.println("Hoy es Martes);
-        break;
- 
-      case 3:
-        System.out.println("Hoy es Miercoles);
-        break;
-        
-      case 4:
-        System.out.println("Hoy es Jueves);
-        break;
-      
-      case 5:
-        System.out.println("Hoy es Viernes);
-        break;
-        
-      case 6:
-        System.out.println("Hoy es Sabado);
-        break;
+          // d. Imprime texto para hacer lectura del dato desde teclado y almacenarlo en la variable dia.
+          System.out.println("Introduce un numero del 1 al 7 para conocer el dia de la
+              semana: ");
+          dia = ingresaSemana.nextInt();
 
-      case 7:
-        System.out.println("Hoy es Domingo);
-        break;
-      // g. Si se ingresa un número de día no válido, imprime el mensaje Número no válido.
-      default:
-        System.out.println("Numero no valido");
-        break;
-    }
+         // e. Crea una estructura switch-case, donde la variable a comparar con todos los casos es dia.
+          switch (dia) {
 
-    input.close();
-  }
-}
+            // f. En cada caso, coloca e imprime cada dia de la semana (comenzando el Lunes).
+            case 1:
+              System.out.println("Hoy es Lunes");
+              break;
+
+            case 2:
+              System.out.println("Hoy es Martes);
+              break;
+
+            case 3:
+              System.out.println("Hoy es Miercoles);
+              break;
+
+            case 4:
+              System.out.println("Hoy es Jueves);
+              break;
+
+            case 5:
+              System.out.println("Hoy es Viernes);
+              break;
+
+            case 6:
+              System.out.println("Hoy es Sabado);
+              break;
+
+            case 7:
+              System.out.println("Hoy es Domingo);
+              break;
+            // g. Si se ingresa un número de día no válido, imprime el mensaje Número no válido.
+            default:
+              System.out.println("Numero no valido");
+              break;
+          }
+
+          input.close();
+        }
+      }
 
