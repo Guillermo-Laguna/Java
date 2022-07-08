@@ -110,24 +110,31 @@ public class diadelaSemana {
 
       // f. En cada caso, coloca e imprime cada dia de la semana (comenzando el Lunes).
       case 1:
-        System.out.println(number1 + " + " + number2 + " = " + result);
+        System.out.println("Hoy es Lunes");
         break;
 
-      // 
       case 2:
-        System.out.println(number1 + " - " + number2 + " = " + result);
+        System.out.println("Hoy es Martes);
+        break;
+ 
+      case 3:
+        System.out.println("Hoy es Miercoles);
+        break;
+        
+      case 4:
+        System.out.println("Hoy es Jueves);
+        break;
+      
+      case 5:
+        System.out.println("Hoy es Viernes);
+        break;
+        
+      case 6:
+        System.out.println("Hoy es Sabado);
         break;
 
-      // performs multiplication between numbers
-      case '*':
-        result = number1 * number2;
-        System.out.println(number1 + " * " + number2 + " = " + result);
-        break;
-
-      // performs division between numbers
-      case '/':
-        result = number1 / number2;
-        System.out.println(number1 + " / " + number2 + " = " + result);
+      case 7:
+        System.out.println("Hoy es Domingo);
         break;
 
       default:
