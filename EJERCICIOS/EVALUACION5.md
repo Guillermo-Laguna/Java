@@ -50,6 +50,8 @@ estructura switch - case? (Valor 1)
         char.
         c. El valor para un case debe ser del mismo tipo de datos que la variable en el
         switch.
+ 
+ ## Answer: a
         
 4. ¿Qué líneas del siguiente código tienen algún error? (Valor 2)
 
