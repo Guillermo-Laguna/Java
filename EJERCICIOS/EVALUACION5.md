@@ -86,62 +86,58 @@ de un caso? (Valor 1)
         
 ## Answer:
 
-      //a. Importa la clase Scanner para la lectura de datos.
-      import java.util.Scanner;
+//a. Importa la clase Scanner para la lectura de datos.
+  import java.util.Scanner;
 
-      public class diadelaSemana {
+  public class DiadelaSemana {
 
-        public static void main(String[] args) {
+    public static void main(String[] args) {
 
-          //c. Crea una variable dia de tipo entero.
-          int dia;
+      //c. Crea una variable dia de tipo entero.
+      int dia;
 
-          // b. Crea un objeto semana de la clase Scanner.
-          Scanner ingresaSemana = new Scanner(System.in);
+      // b. Crea un objeto semana de la clase Scanner.
+      Scanner ingresa = new Scanner(System.in);
 
-          // d. Imprime texto para hacer lectura del dato desde teclado y almacenarlo en la variable dia.
-          System.out.println("Introduce un numero del 1 al 7 para conocer el dia de la
-              semana: ");
-          dia = ingresaSemana.nextInt();
+      // d. Imprime texto para hacer lectura del dato desde teclado y almacenarlo en la variable dia.
+      System.out.println("Introduce un numero del 1 al 7 para conocer el dia de la semana: ");
+      dia = ingresa.nextInt();
 
-         // e. Crea una estructura switch-case, donde la variable a comparar con todos los casos es dia.
-          switch (dia) {
+     // e. Crea una estructura switch-case, donde la variable a comparar con todos los casos es dia.
+      switch (dia) 
+      {
+        // f. En cada caso, coloca e imprime cada dia de la semana (comenzando el Lunes).
+        case 1: System.out.println("Hoy es Lunes");
+          break;
 
-            // f. En cada caso, coloca e imprime cada dia de la semana (comenzando el Lunes).
-            case 1:
-              System.out.println("Hoy es Lunes");
-              break;
+        case 2: System.out.println("Hoy es Martes");
+          break;
 
-            case 2:
-              System.out.println("Hoy es Martes);
-              break;
+        case 3: System.out.println("Hoy es Miercoles");
+          break;
 
-            case 3:
-              System.out.println("Hoy es Miercoles);
-              break;
+        case 4: System.out.println("Hoy es Jueves");
+          break;
 
-            case 4:
-              System.out.println("Hoy es Jueves);
-              break;
+        case 5: System.out.println("Hoy es Viernes");
+          break;
 
-            case 5:
-              System.out.println("Hoy es Viernes);
-              break;
+        case 6: System.out.println("Hoy es Sabado");
+          break;
 
-            case 6:
-              System.out.println("Hoy es Sabado);
-              break;
-
-            case 7:
-              System.out.println("Hoy es Domingo);
-              break;
-            // g. Si se ingresa un número de día no válido, imprime el mensaje Número no válido.
-            default:
-              System.out.println("Numero no valido");
-              break;
-          }
-
-          input.close();
-        }
+        case 7: System.out.println("Hoy es Domingo");
+          break;
+        // g. Si se ingresa un numero de dia no valido, imprime el mensaje Numero no valido.
+        default:
+          System.out.println("Numero no valido");
+          break;
       }
 
+    }
+  }
+
+
+
+
+
+   
