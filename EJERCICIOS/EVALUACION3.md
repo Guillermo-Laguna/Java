@@ -127,40 +127,42 @@ Salida:
 ## Answer:
 
           import java.util.Scanner;
-
-          public class CuentaBancaria {
-                 public static void main(String[] args){
-
-                    Scanner input = new Scanner(System.in);
-                    System.out.println("Salida:");
+	  
+	  public class CuentaBancaria {
+              public static void main(String[] args){
+                double saldo = 1000.75;
+                double cantidadARetirar= 250;
+                
+                Scanner input = new Scanner(System.in);
+                System.out.println("Salida:");
+		
+		// Consultamos el saldo
+                double saldo = 1000.75;
+                double cantidadARetirar= 250;
+                double saldoActualizado = saldo - cantidadARetirar;
+                System.out.println(saldoActualizado);
                     
-           // Consultamos el saldo
-                    double saldo = 1000.75;
-                    double cantidadARetirar= 250;
-                    double saldoActualizado = saldo - cantidadARetirar;
-                    System.out.println(saldoActualizado);
-                    
-                    double cantidadParaCadaAmigo = saldoActualizado / 3;
-                    System.out.println(cantidadParaCadaAmigo);
-                    boolean puedeComprarTicket = true;
+                double cantidadParaCadaAmigo = saldoActualizado / 3;
+                System.out.println(cantidadParaCadaAmigo);
+                boolean puedeComprarTicket = true;
                     
                     if (cantidadParaCadaAmigo >= 250) {
-            puedeComprarTicket = true;
-        } else {
-            cantidadParaCadaAmigo < 250;
-        }
-        return puedeComprarTicket;
-    }
-        System.out.println("Le di a cada amigo" + cantidadParaCadaAmigo);
-    }
-          // closing the scanner object
-          input.close();
-
-         }
-     }
-
-                               
- ## Otro ejemplo de banco 2
+            		puedeComprarTicket = true;
+        		} else {
+            		cantidadParaCadaAmigo < 250;
+        		}
+        		return puedeComprarTicket;
+    			}
+        	    System.out.println("Le di a cada amigo" + cantidadParaCadaAmigo);
+    			}
+          	   // closing the scanner object
+                   input.close();
+		
+              }
+	  }
+           
+              
+## Otro ejemplo de banco 2
  
  if (puedoSacar(cantidad))
 saldo = saldo – cantidad;
