@@ -209,60 +209,31 @@ saldo = saldo – cantidad;
 
  ## Otro ejemplo de banco 3
  
- public class Banco {
-    public static void main(String[] args) {
-      
-        double totalCuenta;
+	 public class Banco {
+	    public static void main(String[] args) {
 
-        // Creamos la cuenta
-        Cuenta Cuenta1;
-        Cuenta1 = new Cuenta(11111, 2500.70);
+		double totalCuenta;
 
-        // Consultamos el saldo
-        totalCuenta = Cuenta1.saldo();
-        System.out.println("Total actual en la cuenta: " + totalCuenta + " €");
+		// Creamos la cuenta
+		Cuenta Cuenta1;
+		Cuenta1 = new Cuenta(11111, 2500.70);
 
-        // Hacemos un ingreso en la cuenta
-        double ingreso = 350.25;
-        System.out.println("Se ingresan en la cuenta: " + ingreso + " €");
-        Cuenta1.depositar(ingreso);
-        
-        System.out.println("---");
+		// Consultamos el saldo
+		totalCuenta = Cuenta1.saldo();
+		System.out.println("Total actual en la cuenta: " + totalCuenta + " €");
 
-        // Consultamos el saldo de nuevo
-        totalCuenta = Cuenta1.saldo();
-        System.out.println("Total actual en la cuenta: " + totalCuenta + " €");        
-        
-    }
-    
-}
+		// Hacemos un ingreso en la cuenta
+		double ingreso = 350.25;
+		System.out.println("Se ingresan en la cuenta: " + ingreso + " €");
+		Cuenta1.depositar(ingreso);
 
-## Programacion estructurada
+		System.out.println("---");
 
-	import java.util.Scanner;
-	public class Promedio{
-		public static void main(String [] args) {
-			String nombre;
-			double calificacion, suma, promedio;
-			int i = 1;
-			Scanner in = new Scanner (System.in);
-			System.out.println(“Nombre del alumno”);
-			nombre= in.nextLine();
-			while(i<6){
-					System.out.println(“Ingresa la calificacion” + i + “de” + nombre );
-	calificacion=in.nextInt();
-				if((calificacion<11)&&(calificacion>0)){
-					i=i+1;
-					suma=suma+calificacion;
-						promedio = suma/i; 
-	}
+		// Consultamos el saldo de nuevo
+		totalCuenta = Cuenta1.saldo();
+		System.out.println("Total actual en la cuenta: " + totalCuenta + " €");        
+
+	    }
 
 	}
-	if ( promedio>6){
-		System.out.println(“El promedio de “ + nombre + “ es de “ + promedio + “ Felicidades Aprobaste”);
-	else {
-		System.out.println(“El promedio de “ + nombre + “ es de “ + promedio + “ Reprobaste, echale ganas”);
-			}
-		}	
-	}	
 
