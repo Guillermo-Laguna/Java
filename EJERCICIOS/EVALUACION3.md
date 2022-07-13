@@ -137,8 +137,6 @@ Salida:
                 System.out.println("Salida:");
 		
 		// Consultamos el saldo
-                double saldo = 1000.75;
-                double cantidadARetirar= 250;
                 double saldoActualizado = saldo - cantidadARetirar;
                 System.out.println(saldoActualizado);
                     
