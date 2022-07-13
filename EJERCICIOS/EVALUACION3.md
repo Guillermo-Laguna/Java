@@ -126,19 +126,18 @@ Salida:
           
 ## Answer:
 
-          import java.util.Scanner;
-	  
-	  public class CuentaBancaria {
+          public class CuentaBancaria {
               public static void main(String[] args){
                 double saldo = 1000.75;
                 double cantidadARetirar= 250;
-                
-                Scanner input = new Scanner(System.in);
-                System.out.println("Salida:");
+             		
+		// Creamos la cuenta
+		Cuenta Cuenta1;
+		Cuenta1 = new Cuenta(11111, 2500.70);
 		
-		// Consultamos el saldo
+		// Actualizamos el saldo
                 double saldoActualizado = saldo - cantidadARetirar;
-                System.out.println(saldoActualizado);
+                System.out.println("Saldo actualizado en la cuenta: " + saldoActualizado + " €");
                     
                 double cantidadParaCadaAmigo = saldoActualizado / 3;
                 System.out.println(cantidadParaCadaAmigo);
