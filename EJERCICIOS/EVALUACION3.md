@@ -127,30 +127,30 @@ Salida:
 ## Answer:
 
           public class CuentaBancaria {
-              public static void main(String[] args){
-                double saldo = 1000.75;
-                double cantidadARetirar= 250;
-             			
-		// Actualizamos el saldo
-                double saldoActualizado = saldo - cantidadARetirar;
-                System.out.println("Saldo actualizado en la cuenta: $" + saldoActualizado);
-                
-		// Dividir saldo en tres partes iguales
-                double cantidadParaCadaAmigo = saldoActualizado / 3;
-                		
-                boolean puedeComprarTicket = true;
-		//double cantidadParaCadaAmigo >= 250;
-		
-                // Java solo ejecutara esta parte del codigo si se cumple la condicion
-		// En este caso, que la variable cantidadParaCadaAmigo sea igual a true    
-                    if (puedeComprarTicket) {
-		      cantidadParaCadaAmigo++;       
-		      System.out.println(puedeComprarTicket);
-		    } else {  
-		      System.out.println("Le di a cada amigo: $" + cantidadParaCadaAmigo);
-    		    }
-          	}
-	   }
+          public static void main(String[] args){
+            double saldo = 1000.75;
+            double cantidadARetirar= 250;
+         			
+	// Actualizamos el saldo
+            double saldoActualizado = saldo - cantidadARetirar;
+            System.out.println("Saldo actualizado en la cuenta: $" + saldoActualizado);
+            
+	// Dividir saldo en tres partes iguales
+            double cantidadParaCadaAmigo = saldoActualizado / 3;
+            		
+            boolean puedeComprarTicket = true;
+	//double cantidadParaCadaAmigo >= 250;
+	
+            // Java solo ejecutara esta parte del codigo si se cumple la condicion
+	// En este caso, que la variable cantidadParaCadaAmigo sea igual a true    
+                if (puedeComprarTicket) {
+	      cantidadParaCadaAmigo++;       
+	      System.out.println(cantidadParaCadaAmigo);
+	    } else {  
+	      System.out.println("Le di a cada amigo: $" + cantidadParaCadaAmigo);
+		    }
+      	}
+   }
            
               
 ## Otro ejemplo de banco 2
