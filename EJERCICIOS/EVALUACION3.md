@@ -130,33 +130,27 @@ Salida:
               public static void main(String[] args){
                 double saldo = 1000.75;
                 double cantidadARetirar= 250;
-             		
-		// Creamos la cuenta
-		Cuenta Cuenta1;
-		Cuenta1 = new Cuenta(11111, 2500.70);
-		
+             			
 		// Actualizamos el saldo
                 double saldoActualizado = saldo - cantidadARetirar;
-                System.out.println("Saldo actualizado en la cuenta: " + saldoActualizado + " €");
-                    
+                System.out.println("Saldo actualizado en la cuenta: $" + saldoActualizado);
+                
+		// Dividir saldo en tres partes iguales
                 double cantidadParaCadaAmigo = saldoActualizado / 3;
-                System.out.println(cantidadParaCadaAmigo);
+                		
                 boolean puedeComprarTicket = true;
-                    
-                    if (cantidadParaCadaAmigo >= 250) {
-            		puedeComprarTicket = true;
-        		} else {
-            		cantidadParaCadaAmigo < 250;
-        		}
-        		return puedeComprarTicket;
-    			}
-        	    System.out.println("Le di a cada amigo" + cantidadParaCadaAmigo);
-    			}
-          	   // closing the scanner object
-                   input.close();
+		//double cantidadParaCadaAmigo >= 250;
 		
-              }
-	  }
+                // Java solo ejecutara esta parte del codigo si se cumple la condicion
+		// En este caso, que la variable cantidadParaCadaAmigo sea igual a true    
+                    if (puedeComprarTicket) {
+		      cantidadParaCadaAmigo++;       
+		      System.out.println(puedeComprarTicket);
+		    } else {  
+		      System.out.println("Le di a cada amigo: $" + cantidadParaCadaAmigo);
+    		    }
+          	}
+	   }
            
               
 ## Otro ejemplo de banco 2
