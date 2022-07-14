@@ -1,5 +1,39 @@
 ## Calculadora con POO
 
+              import java.util.Scanner;
+
+              public class Menu_calculadora {
+
+                public static void main(String[] args) {
+                
+                // create an object of Scanner class
+                  Scanner leer = new Scanner(System.in);
+
+                  int seleccion_de_operacion = 0;
+                  int numero1 = 0;
+                  int numero2 = 0;
+                  int resultado = 0;
+                  do {
+                  
+                  System.out.println("/n");
+                  System.out.println("SELECCIONA UN NUMERO DE OPERACION A REALIZAR: ");
+                  System.out.println("1.-SUMAR");
+                  System.out.println("2.-RESTAR");
+                  System.out.println("3.-MULTIPLICAR");
+                  System.out.println("4.-DIVIDIR");
+                  System.out.println("5.-SALIR");
+                  seleccion_de_operacion = leer.nextInt();
+                  
+                  if(seleccion_de_operacion != 5) {
+                      System.out.println("Inserte primer numero: ");
+                      numero1 = leer.nextInt();
+                      System.out.println("Inserte segundo numero: ");
+                      numero2 = leer.nextInt();
+                  }    
+                  
+                  
+                  
+
 
 
 
