@@ -13,10 +13,10 @@
                     double a=leer.nextDouble();
                     System.out.println("Introduce numero 2: ");
                     double b=leer.nextDouble();
-                    System.out.println("La suma es: "+Suma(a,b));
-                    System.out.println("La resta es: "+Resta(a,b));
-                    System.out.println("La multiplicacion es: "+Multi(a,b)); 
-                    System.out.println("La division es: "+Divi(a,b));
+                    System.out.println("La Suma es: "+Suma(a,b));
+                    System.out.println("La Resta es: "+Resta(a,b));
+                    System.out.println("La Multiplicacion es: "+Multi(a,b)); 
+                    System.out.println("La Division es: "+Divi(a,b));
                 }   
                     
                 public static double Suma(double x, double y){
