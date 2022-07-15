@@ -1,4 +1,33 @@
+## Calculadora con Programación Secuencial
+
+
 ## Calculadora 1 con POO
+
+import java.util.Scanner;
+
+            public class Calculadora2 {
+
+                public static void main(String[] args) {
+                    Scanner leer=new Scanner(System.in);
+                    System.out.println("Introduce numero 1: ");
+                    double a=leer.nextDouble();
+                    System.out.println("Introduce numero 2: ");
+                    double b=leer.nextDouble();
+                    System.out.println("La suma es: "+suma);
+                    System.out.println("La resta es: "+resta);
+                }    
+                public static double Suma(double a, double b){
+                    return a+b;
+                }
+                public static double Resta(double a, double b){
+                    return a+b;
+                }
+                    
+
+
+
+
+## Calculadora 2 con POO
 
 import java.util.Scanner;
 
@@ -71,7 +100,7 @@ import java.util.Scanner;
             }
                                 
 
-## Calculadora 2 con POO
+## Calculadora 3 con POO
 
             import java.util.Scanner;
 
