@@ -3,7 +3,7 @@
 
 ## Calculadora 1 con POO
 
-import java.util.Scanner;
+            import java.util.Scanner;
 
             public class Calculadora2 {
 
@@ -13,19 +13,35 @@ import java.util.Scanner;
                     double a=leer.nextDouble();
                     System.out.println("Introduce numero 2: ");
                     double b=leer.nextDouble();
-                    System.out.println("La suma es: "+suma);
-                    System.out.println("La resta es: "+resta);
-                }    
-                public static double Suma(double a, double b){
-                    return a+b;
-                }
-                public static double Resta(double a, double b){
-                    return a+b;
-                }
+                    System.out.println("La suma es: "+Suma(a,b));
+                    System.out.println("La resta es: "+Resta(a,b));
+                    System.out.println("La multiplicacion es: "+Multi(a,b)); 
+                    System.out.println("La division es: "+Divi(a,b));
+                }   
                     
-
-
-
+                public static double Suma(double x, double y){
+                    return x+y;
+                }
+                public static double Resta(double x, double y){
+                    if(x>y){
+                        return x-y;
+                    } else {
+                        return y-x;
+                    }
+                }
+                public static double Multi(double x, double y){
+                    return x*y; 
+                }
+                public static double Divi(double x, double y){
+                    if(x>y){
+                        return x/y;
+                    } else {
+                        return x/y;
+                    }
+                }
+            }
+                    
+            
 
 ## Calculadora 2 con POO
 
