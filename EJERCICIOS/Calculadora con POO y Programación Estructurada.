@@ -103,6 +103,36 @@
 
 ## Ejemplo 1 de calculadora
 
+
+
+## Ejemplo 2 de calculadora
+
+            import java.util.Scanner;
+            public class MiniCalculadora {
+
+                public static void main(String[] args){
+
+                  Scanner leer=new Scanner(System.in);
+                  System.out.println("Introduce numero 1: ");
+                  double a=leer.nextDouble();
+                  System.out.println("Introduce numero 2: ");
+                  double b=leer.nextDouble();
+
+                  Operaciones op = new Operaciones();
+                  op.setNumeros(a,b);
+                  op.ImprimeNumeros();
+                  System.out.println("Suma: "+op.Suma());
+                  System.out.println("Resta: "+op.Resta());
+                  System.out.println("Multiplicacion: "+op.Multi());
+                  System.out.println("Division: "+op.Divi());
+                }
+
+            }   
+
+
+
+## Ejemplo 3 de calculadora
+
 import java.util.Scanner;
 
             public class Calculadora1 {
@@ -174,7 +204,7 @@ import java.util.Scanner;
             }
                                 
 
-## Ejemplo 2 de calculadora
+## Ejemplo 4 de calculadora
 
             import java.util.Scanner;
 
