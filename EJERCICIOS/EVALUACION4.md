@@ -83,7 +83,6 @@ las siguientes series haciendo uso necesariamente de las sentencias de control:
 ## Answer 1: Muestra la Serie de Fibonacci usando bucle for 
 
   public class Main {
-
     public static void main(String[] args) {
 
       int n = 15, primerTermino = 0, segundoTermino = 1;
@@ -124,7 +123,6 @@ las siguientes series haciendo uso necesariamente de las sentencias de control:
 ## Answer 3: Muestra la Serie de Fibonacci hasta un número dado
 
   public class Fibonacci {
-
     public static void main(String[] args) {
 
       int n = 377, primerTermino = 0, segundoTermino = 1;
@@ -137,7 +135,7 @@ las siguientes series haciendo uso necesariamente de las sentencias de control:
         int siguienteTermino = primerTermino + segundoTermino;
         primerTermino = segundoTermino;
         segundoTermino = siguienteTermino;
-
       }
     }
-  }
+ }
+ 
